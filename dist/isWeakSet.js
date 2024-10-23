@@ -1,5 +1,8 @@
-import { getType } from './getType.js';
-/** Returns whether the payload is a WeakSet */
-export function isWeakSet(payload) {
-    return getType(payload) === 'WeakSet';
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.isWeakSet = isWeakSet;
+const getType_js_1 = require("./getType.js");
+function isWeakSet(payload) {
+    return (0, getType_js_1.getType)(payload) === 'WeakSet';
 }
+//# sourceMappingURL=isWeakSet.js.map

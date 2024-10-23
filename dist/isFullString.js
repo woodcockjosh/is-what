@@ -1,5 +1,8 @@
-import { isString } from './isString.js';
-/** Returns whether the payload is a string, BUT returns false for '' */
-export function isFullString(payload) {
-    return isString(payload) && payload !== '';
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.isFullString = isFullString;
+const isString_js_1 = require("./isString.js");
+function isFullString(payload) {
+    return (0, isString_js_1.isString)(payload) && payload !== '';
 }
+//# sourceMappingURL=isFullString.js.map

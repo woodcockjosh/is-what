@@ -1,5 +1,8 @@
-import { getType } from './getType.js';
-/** Returns whether the payload is a regular expression (RegExp) */
-export function isRegExp(payload) {
-    return getType(payload) === 'RegExp';
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.isRegExp = isRegExp;
+const getType_js_1 = require("./getType.js");
+function isRegExp(payload) {
+    return (0, getType_js_1.getType)(payload) === 'RegExp';
 }
+//# sourceMappingURL=isRegExp.js.map

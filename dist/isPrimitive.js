@@ -1,19 +1,18 @@
-import { isBoolean } from './isBoolean.js';
-import { isNull } from './isNull.js';
-import { isNumber } from './isNumber.js';
-import { isString } from './isString.js';
-import { isSymbol } from './isSymbol.js';
-import { isUndefined } from './isUndefined.js';
-/**
- * Returns whether the payload is a primitive type (eg. Boolean | Null | Undefined | Number | String
- *
- * | Symbol)
- */
-export function isPrimitive(payload) {
-    return (isBoolean(payload) ||
-        isNull(payload) ||
-        isUndefined(payload) ||
-        isNumber(payload) ||
-        isString(payload) ||
-        isSymbol(payload));
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.isPrimitive = isPrimitive;
+const isBoolean_js_1 = require("./isBoolean.js");
+const isNull_js_1 = require("./isNull.js");
+const isNumber_js_1 = require("./isNumber.js");
+const isString_js_1 = require("./isString.js");
+const isSymbol_js_1 = require("./isSymbol.js");
+const isUndefined_js_1 = require("./isUndefined.js");
+function isPrimitive(payload) {
+    return ((0, isBoolean_js_1.isBoolean)(payload) ||
+        (0, isNull_js_1.isNull)(payload) ||
+        (0, isUndefined_js_1.isUndefined)(payload) ||
+        (0, isNumber_js_1.isNumber)(payload) ||
+        (0, isString_js_1.isString)(payload) ||
+        (0, isSymbol_js_1.isSymbol)(payload));
 }
+//# sourceMappingURL=isPrimitive.js.map

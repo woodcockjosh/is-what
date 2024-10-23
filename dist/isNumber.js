@@ -1,9 +1,8 @@
-import { getType } from './getType.js';
-/**
- * Returns whether the payload is a number (but not NaN)
- *
- * This will return `false` for `NaN`!!
- */
-export function isNumber(payload) {
-    return getType(payload) === 'Number' && !isNaN(payload);
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.isNumber = isNumber;
+const getType_js_1 = require("./getType.js");
+function isNumber(payload) {
+    return (0, getType_js_1.getType)(payload) === 'Number' && !isNaN(payload);
 }
+//# sourceMappingURL=isNumber.js.map

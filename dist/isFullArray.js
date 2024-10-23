@@ -1,5 +1,8 @@
-import { isArray } from './isArray.js';
-/** Returns whether the payload is a an array with at least 1 item */
-export function isFullArray(payload) {
-    return isArray(payload) && payload.length > 0;
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.isFullArray = isFullArray;
+const isArray_js_1 = require("./isArray.js");
+function isFullArray(payload) {
+    return (0, isArray_js_1.isArray)(payload) && payload.length > 0;
 }
+//# sourceMappingURL=isFullArray.js.map

@@ -1,6 +1,6 @@
 {
-  "name": "is-what",
-  "version": "5.0.2",
+  "name": "@cryptexlabs/is-what",
+  "version": "5.0.3",
   "description": "JS type check (TypeScript supported) functions like `isPlainObject() isArray()` etc. A simple & small integration.",
   "type": "module",
   "sideEffects": false,
@@ -20,7 +20,6 @@
   },
   "devDependencies": {
     "@cycraft/eslint": "^0.3.0",
-    "@cycraft/tsconfig": "^0.1.2",
     "del-cli": "^5.1.0",
     "np": "^10.0.5",
     "typedoc": "^0.25.13",
@@ -50,13 +49,15 @@
     "is-plain-obj",
     "is-plain-object"
   ],
-  "author": "Luca Ban - Mesqueeb (https://cycraft.co)",
-  "funding": "https://github.com/sponsors/mesqueeb",
+  "authors": [
+    "Luca Ban - Mesqueeb (https://cycraft.co)",
+    "Josh Woodcock <josh.woodcock@cyrptexlabs.com>"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mesqueeb/is-what.git"
+    "url": "https://github.com/woodcockjosh/is-what.git"
   },
-  "homepage": "https://github.com/mesqueeb/is-what#readme",
-  "bugs": "https://github.com/mesqueeb/is-what/issues"
+  "homepage": "https://github.com/woodcockjosh/is-what#readme",
+  "bugs": "https://github.com/woodcockjosh/is-what/issues"
 }

@@ -1,4 +1,7 @@
-/** Returns the object type of the given payload */
-export function getType(payload) {
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.getType = getType;
+function getType(payload) {
     return Object.prototype.toString.call(payload).slice(8, -1);
 }
+//# sourceMappingURL=getType.js.map

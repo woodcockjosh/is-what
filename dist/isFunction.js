@@ -1,4 +1,7 @@
-/** Returns whether the payload is a function (regular or async) */
-export function isFunction(payload) {
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.isFunction = isFunction;
+function isFunction(payload) {
     return typeof payload === 'function';
 }
+//# sourceMappingURL=isFunction.js.map

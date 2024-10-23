@@ -1,8 +1,8 @@
-import { isPlainObject } from './isPlainObject.js';
-/**
- * Returns whether the payload is a an empty object (excluding special classes or objects with other
- * prototypes)
- */
-export function isFullObject(payload) {
-    return isPlainObject(payload) && Object.keys(payload).length > 0;
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.isFullObject = isFullObject;
+const isPlainObject_js_1 = require("./isPlainObject.js");
+function isFullObject(payload) {
+    return (0, isPlainObject_js_1.isPlainObject)(payload) && Object.keys(payload).length > 0;
 }
+//# sourceMappingURL=isFullObject.js.map

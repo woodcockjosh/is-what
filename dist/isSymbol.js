@@ -1,5 +1,8 @@
-import { getType } from './getType.js';
-/** Returns whether the payload is a Symbol */
-export function isSymbol(payload) {
-    return getType(payload) === 'Symbol';
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.isSymbol = isSymbol;
+const getType_js_1 = require("./getType.js");
+function isSymbol(payload) {
+    return (0, getType_js_1.getType)(payload) === 'Symbol';
 }
+//# sourceMappingURL=isSymbol.js.map
